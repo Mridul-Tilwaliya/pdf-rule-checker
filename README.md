@@ -2,6 +2,8 @@
 
 A full-stack web application that checks PDF documents against user-defined rules using LLM (Large Language Model) analysis.
 
+**Repository:** [https://github.com/Mridul-Tilwaliya/pdf-rule-checker](https://github.com/Mridul-Tilwaliya/pdf-rule-checker)
+
 ## Features
 
 - 📄 Upload PDF files (2-10 pages recommended)
@@ -30,7 +32,7 @@ A full-stack web application that checks PDF documents against user-defined rule
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Mridul-Tilwaliya/pdf-rule-checker.git
    cd pdf-rule-checker
    ```
 
@@ -192,19 +194,3 @@ limits: { fileSize: 10 * 1024 * 1024 } // 10MB
 ### CORS errors
 - Make sure backend is running on port 5000
 - Check that frontend proxy is configured correctly in `vite.config.js`
-
-## Cost Considerations
-
-- OpenAI API calls incur costs based on usage
-- `gpt-4o-mini` is recommended for cost-effectiveness
-- Each rule check = 1 API call
-- Monitor usage at [OpenAI Usage Dashboard](https://platform.openai.com/usage)
-
-## License
-
-MIT
-
-## Author
-
-Built for NIYAMR AI - 48-Hour Full-Stack Developer Assignment
-

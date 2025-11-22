@@ -12,6 +12,10 @@
   "keywords": ["pdf", "llm", "rule-checker"],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mridul-Tilwaliya/pdf-rule-checker.git"
+  },
   "devDependencies": {
     "concurrently": "^8.2.2"
   }
